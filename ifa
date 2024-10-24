@@ -1,0 +1,16 @@
+class Irfa {
+  void methodOne(String hobby, String location, String favoriteColor) {
+    print('Hobby: $hobby, Location: $location, Favorite Color: $favoriteColor');
+  }
+
+  void methodTwo(String skill, int experienceYears, String language) {
+    print('Skill: $skill, Experience Years: $experienceYears, Language: $language');
+  }
+}
+
+void main() {
+  var irfa = Irfa();
+  
+  irfa.methodOne('Reading', 'Taliabu', 'green');
+  irfa.methodTwo('Dart', 3, 'English');
+}
